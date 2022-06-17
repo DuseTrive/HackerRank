@@ -1,0 +1,11 @@
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+    
+    #print (n)
+    
+    values = set(arr)
+    #print(values)
+    values.discard(max(values))
+    #print(values)
+    print(max(values))
